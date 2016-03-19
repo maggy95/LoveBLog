@@ -1,0 +1,39 @@
+@mixin h1 ($fontf, $color, $size, $margin){
+  font-family: $font;
+        color: $coral;
+        font-size: 36px;
+        margin: 30px ;
+}
+
+
+ @mixin portfolio ($back, $paddingl, $clr, $fsize, $ffamily, $bsize){
+ 	background: $back;
+            padding-left: $paddingl;
+            color: $clr;
+            font-size:$fsize;
+            font-family: $ffamily;
+            background-size: $bsize;
+ }
+
+@mixin portfolio-a ($backg, $colo, $dis, $font-f, $font-s, $margin-t, $paddn, $width){
+	background:$backg;
+            color: $colo;
+            display: $dis;
+            font-family: $font-f;
+            font-size: $font-s;
+            margin-top: $margin-t;
+            padding:$paddn;
+            width: $width;
+} 
+@mixin blog_post ($color-b, $size-f, $font-fa, $bottom){
+	color: $color-b;
+ 	font-size: $size-f;
+    font-family:$font-fa;
+    margin-bottom: $bottom;
+}
+@mixin cf ($border, $height, $wdth, $outline){
+		border:$border;
+      height:$height;
+      width:$wdth;
+      outline: $outline;
+}
